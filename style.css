@@ -1,0 +1,224 @@
+@charset "utf-8";
+
+/* ========================================
+    リセットcss
+========================================= */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-style:normal;
+    font-weight: normal;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+html{overflow-y: scroll;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: ''; content: none;}
+input, textarea{margin: 0; padding: 0;}
+ol, ul{list-style:none;}
+table{border-collapse: collapse; border-spacing:0;}
+caption, th{text-align: left;}
+a:focus {outline:none;}
+
+div#test {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+}
+
+/* micro clearfix */
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {clear: both;}
+.cf {*zoom: 1;}
+.clear {
+    clear: both;
+}
+
+/* ========================================
+    全体css
+========================================= */
+
+
+/* ========================================
+    ヘッダーcss
+========================================= */
+header {
+    width: 849px;
+    height: 60px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+h1 {
+    padding: 10px 0;
+    float: left;
+}
+
+header ul {
+    float: right;
+}
+
+header ul li {
+    float: left;
+    line-height: 60px;
+    margin-left: 30px;
+}
+
+header ul li  a {
+    text-decoration: none;
+    color: #24292e;
+    font-size: ;
+    font-family: ;
+}
+
+
+/* ========================================
+    メイン画像css
+========================================= */
+#mainimage {
+    width: 100%;
+    height: 600px;
+    background: url(images/mainimage.jpg) no-repeat top center;
+
+}
+
+/* ========================================
+    プロフィールcss
+========================================= */
+#about {
+    width: 525px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 96px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #383e45;
+    border-bottom: 1px solid #383e45;
+    display: inline-block;
+    paddingn-bottom: 10px;
+    margin-bottom: 66px;
+}
+
+#about dl {
+    margin-bottom: 112px;
+}
+
+#about dl dt {
+    float: left;
+}
+
+#about dl dd {
+    float: right;
+}
+
+#name {
+    color: #383e45;
+    padding-right: 260px;
+    font-weight: bold;
+    padding-bottom: 18px;
+}
+
+#about_text {
+    color: #383e45;
+    width: 394px;
+    height: 57px;
+    font-size: 14px;
+}
+
+/* ========================================
+    自転車画像css
+========================================= */
+#bicycle {
+    width: 850px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-bottom: 117px;
+    text-align: center;
+}
+
+#bicycle h2 {
+    font-size: 30px;
+    color: #383e45;
+    font-weight: bold;
+    border-bottom: 1px solid #383e45;
+    display: inline-block;
+    paddingn-bottom: 10px;
+    margin-bottom: 66px;
+}
+
+#bicycle ul li {
+    float: left;
+    margin-right: 17px;
+}
+
+#bicycle ul li:last-child {
+    margin-right: 0;
+}
+
+.title {
+    color: #383e45;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.text {
+    color: #383e45;
+    font-size: 16px;
+}
+
+/* ========================================
+    フッターcss
+========================================= */
+footer {
+    width: 100%;
+    height: 22px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
